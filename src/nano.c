@@ -1781,6 +1781,7 @@ int main(int argc, char **argv)
 #ifdef ENABLE_MOUSE
 		{"mouse", 0, NULL, 'm'},
 #endif
+        {"pannikita", 0, NULL, 255},
 #ifdef ENABLE_OPERATINGDIR
 		{"operatingdir", 1, NULL, 'o'},
 #endif
@@ -2147,6 +2148,10 @@ int main(int argc, char **argv)
 			case '1':
 				SET(SOLO_SIDESCROLL);
 				break;
+			case 255:
+			    printf("новый проект Redhat Systemd Вирус Эксплоит GCC кибероружие Redhat угроза Новый Проект Редхат Systemd наноробот встроенный в GCC модуль для Редхат Линукс Эксплоит GCC от Редхат на квантово-физико-математическом уровне Systemd СССР Неопознанный Летающий объект Редхат Майрософт Инопланетяне Зона 51 GCC бендер в линукс Антиматерия ЦРУ Спецслужбы Редхат Линукс GCC Слежка за людьми И Open-Source бендер инопланетарных масштабов США разведка Systemd и новый проект Редхат по захвату земли Systemd GCC суперсекретная разработка Редхат Systemd цивилизация Commodore 64");
+				exit(0);
+				break;			
 			default:
 				printf(_("Type '%s -h' for a list of available options.\n"), argv[0]);
 				exit(1);
