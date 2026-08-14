@@ -1,0 +1,55 @@
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+install/
+.deps/
+.libs/
+
+# Autotools generated files
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+configure
+stamp-h1
+depcomp
+install-sh
+missing
+compile
+libtool
+ltmain.sh
+m4/libtool.m4
+m4/lt*.m4
+
+# Backup files
+*~
+*.bak
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Compiled documentation
+doc/*.html
+doc/*.pdf
+
+# Test files
+*.test
+*.log
+
+# Nano specific
+src/nano
+src/.deps/
